@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="JS.%;I/7nV{[=WCja1L;" x="0" y="0"></block><block type="device_forever" id="n/=#2U_qPI/R:1p0/nTb" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="input_logo_event" id=",K[Mmfyml8ecTNKwoj!!" x="0" y="0"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="device_show_leds" id="f)0)J57{IGOJ5nMi-H;g"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # # . # # 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="input_logo_event" id="z4SPief6*8j!|{JQr8PJ" x="232" y="2"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_leds" id="v/K_{loOwAcKxqFvZ02c"><field name="LEDS">`
+        . # # # . 
+        # # . # # 
+        # . # . # 
+        # # . # # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="ixHdnDx1LyvSLf#:VRlt" x="284" y="214"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="{RM%-Z]Dc4@3(bV1Od8Y"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id=")HF~hvL%dK.OL[z%zvtT"><field name="melody">Melodies.Prelude</field></shadow></value><next><block type="device_show_leds" id="]@tVudsDLVqQseVN-(}9"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="cPXp%|{lgC{4:xQUMD:#"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="#U8]`r||(cyh#D=s1aqB"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="$vHg?S!/LX%ZLm#knZoe"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="0MWi:$T-Ab_8gnl-w4xN"><next><block type="music_playable_play_default_bkg" id="DR)w,Q.xDX}^vx+Oy]5k"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="K$LH},tUl;[/rtN%PU3."><field name="melody">Melodies.Prelude</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
